@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Online Book Publishing</title>
+</head>
+<body>
+    <h1>Write and Publish Your Book</h1>
+
+    <div>
+        <label for="bookContent">Write Your Book:</label><br>
+        <textarea id="bookContent" rows="10" cols="80"></textarea>
+    </div>
+
+    <button onclick="publishBook()">Publish</button>
+
+    <h2>Published Books</h2>
+    <div id="publishedBooks"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
